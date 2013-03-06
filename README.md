@@ -1,4 +1,3 @@
-
 #关于在CI中进行多语言的方法
 
 ##概述
@@ -87,4 +86,9 @@ function get_translation_language($language_in_session){
 ```
 ##第三部分 :CI需要加载的语言切换
 
-    
+
+##第四部分 :POEDITER的使用
+
+* 在网上下载POEDITOR 
+* 创建PO文件
+* 修改自己负责po文件里面的路径问题"X-Poedit-Basepath: /data/sites/quora/application\n"
